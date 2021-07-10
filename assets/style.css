@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
