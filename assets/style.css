@@ -16,7 +16,7 @@ body {
   border-radius: 10px;
   font-weight: 500;
   background-color: rgba(255, 168, 7, 0.829);
-  transition: 1s;
+  transition: background-color 1s, box-shadow 1s;
   /* width: 90%; */
   text-align: center;
   text-shadow: 1px 1px 1px grey;
