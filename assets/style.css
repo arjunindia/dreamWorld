@@ -82,7 +82,7 @@ main {
   transition: 1s;
 }
 .logo img:hover {
-  border-radius: 0;
+  border-radius: 10px;
 }
 .links {
   display: flex;
@@ -183,6 +183,10 @@ main {
 .bCard img {
   width: 50%;
   border-radius: 50%;
-  border: 5px solid hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);
+  border: 5px solid hsl(139, calc(1 * 47.3%), 43.9%);
   background-color: rgb(28, 28, 28);
+  transition: 0.07s;
+}
+.bCard img:hover {
+  border: 5px solid hsl(139, calc(5 * 47.3%), 43.9%);
 }
