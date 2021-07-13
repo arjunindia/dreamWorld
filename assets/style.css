@@ -6,7 +6,15 @@ body {
   background-color: #012a4a;
   color: white;
 }
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  border-bottom: 1px solid #012a4a;
+}
 .banner a {
+  position: absolute;
+  top: 87%;
   color: White;
   text-decoration: none; /* no underline */
   /* transform: translateY(-120%); */
@@ -16,7 +24,7 @@ body {
   border-radius: 10px;
   font-weight: 500;
   background-color: rgba(255, 168, 7, 0.829);
-  transition: background-color 1s, box-shadow 1s;
+  transition: background-color 1s, box-shadow 1s, transform 0.7s;
   /* width: 90%; */
   text-align: center;
   text-shadow: 1px 1px 1px grey;
@@ -24,6 +32,7 @@ body {
 .banner a:hover {
   background-color: rgba(255, 133, 34, 0.788);
   box-shadow: 0px 10px 10px black;
+  transform: scale(110%);
 }
 .navbar {
   height: 10vh;
@@ -34,12 +43,13 @@ body {
   color: white;
   border-bottom-right-radius: 10px;
 }
-/* main {
-  display: flex;
+main {
+  transform: translateY(8vh);
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
-} */
+  justify-items: center; */
+}
 .s2 h2 em {
   font-size: 1.3em;
 }
@@ -69,6 +79,10 @@ body {
 .logo img {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 100px;
+  transition: 1s;
+}
+.logo img:hover {
+  border-radius: 0;
 }
 .links {
   display: flex;
@@ -78,6 +92,9 @@ body {
 .links a {
   color: white;
   text-decoration: none;
+}
+.links a:hover {
+  color: grey;
 }
 .s3 {
   display: flex;
