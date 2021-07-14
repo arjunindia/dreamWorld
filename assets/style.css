@@ -187,7 +187,7 @@ main {
   background-color: rgb(28, 28, 28);
   transition: 0.07s;
 }
-.bCard img:hover {
+.bCard:hover img {
   border: 5px solid hsl(139, calc(5 * 47.3%), 43.9%);
 }
 .s5 h2 {
