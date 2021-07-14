@@ -298,7 +298,38 @@ main {
 }
 
 @media (max-width: 700px) {
-  * {
+  /* * {
     display: none !important;
+  } */
+  .navbar {
+    height: 15vh;
+  }
+  .links {
+    display: none;
+  }
+  main {
+    transform: translateY(15vh);
+  }
+  .s2 {
+    padding: 2vw;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .banner a {
+    position: relative;
+    width: 92%;
+  }
+  .s3 article {
+    display: grid;
+    padding: 10vh 0;
+    grid-template-columns: auto;
+  }
+  .card-holder {
+    /* padding: 10vh; */
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .s5 {
+    padding: 5%;
   }
 }
