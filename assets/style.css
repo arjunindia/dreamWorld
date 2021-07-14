@@ -325,9 +325,11 @@ main {
     justify-content: center;
     /* background-color: */
     background-image: url(dremwrld.gif);
-    background-size: 1000%;
+    background-size: 2000%;
     overflow: hidden;
+    background-position: 10% -0%;
   }
+
   .banner img {
     box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.8);
     width: 130%;
@@ -336,6 +338,9 @@ main {
   .banner a {
     position: absolute;
     width: 92%;
+    transform: translateY(-100%);
+  }
+  .banner a:hover {
     transform: translateY(-100%);
   }
   .s3 article {
