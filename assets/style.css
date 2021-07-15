@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -50,6 +52,20 @@ main {
   align-items: center;
   justify-items: center; */
 }
+footer {
+  font-family: "Josefin Sans", sans-serif;
+  transform: translateY(8vh);
+  padding: 1px 20px;
+  font-size: 0.8em;
+  background-color: rgb(36, 36, 36);
+  font-stretch: expanded;
+  font-style: italic;
+  text-align: center;
+}
+.logo h2 {
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 .s2 h2 {
   text-align: justify;
 }
@@ -97,6 +113,19 @@ main {
   text-decoration: none;
 }
 .links a:hover {
+  color: grey;
+}
+.links-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  display: none;
+}
+.links-2 a {
+  color: white;
+  text-decoration: none;
+}
+.links-2 a:hover {
   color: grey;
 }
 .s3 {
@@ -208,6 +237,9 @@ main {
 .s5 h2 span {
   font-size: 1.5em;
 }
+.s5 {
+  padding: 5vh 0;
+}
 .slide-h {
   /* display: flex; */
   max-width: 1000px;
@@ -300,6 +332,27 @@ main {
   }
 }
 
+.s6 {
+  background-color: #01497c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 2em;
+  padding: 7vh 2vw;
+}
+.s6 a {
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 15px;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #012a4a;
+}
+.s6 a:hover {
+  background-color: #304657;
+}
 @media (max-width: 700px) {
   /* * {
     display: none !important;
@@ -311,6 +364,9 @@ main {
     display: none;
   }
   main {
+    transform: translateY(12vh);
+  }
+  footer {
     transform: translateY(12vh);
   }
   .s2 {
@@ -325,7 +381,7 @@ main {
     justify-content: center;
     /* background-color: */
     background-image: url(dremwrld.gif);
-    background-size: 2000%;
+    background-size: 1000%;
     overflow: hidden;
     background-position: 10% -0%;
   }
@@ -338,6 +394,7 @@ main {
   .banner a {
     position: absolute;
     width: 92%;
+    top: 80vh;
     transform: translateY(-100%);
   }
   .banner a:hover {
@@ -355,5 +412,16 @@ main {
   }
   .s5 {
     padding: 5%;
+  }
+  .logo img:hover + .links-2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #2c7da0;
+    height: 100vmax;
+  }
+  .s6 {
+    font-size: 1.5em;
+    text-align: center;
   }
 }
