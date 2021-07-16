@@ -242,6 +242,8 @@ footer {
 .s5 h2 {
   text-align: center;
   display: flex;
+  display: -webkit-flex;
+
   justify-items: center;
   justify-content: center;
 }
