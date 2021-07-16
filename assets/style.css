@@ -60,6 +60,7 @@ main {
   width: 0.1px;
   position: absolute;
   z-index: -99999;
+  color: transparent;
 }
 footer {
   font-family: "Josefin Sans", sans-serif;
@@ -390,7 +391,7 @@ footer {
     justify-content: center;
     /* background-color: */
     background-image: url(dremwrld.gif);
-    background-size: 1000%;
+    background-size: 1400%;
     overflow: hidden;
     background-position: 10% -0%;
   }
