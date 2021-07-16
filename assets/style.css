@@ -52,6 +52,12 @@ main {
   align-items: center;
   justify-items: center; */
 }
+.hidden {
+  height: 0.1px;
+  width: 0.1px;
+  position: absolute;
+  z-index: -99999;
+}
 footer {
   font-family: "Josefin Sans", sans-serif;
   transform: translateY(8vh);
