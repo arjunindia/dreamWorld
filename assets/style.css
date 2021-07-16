@@ -441,6 +441,9 @@ footer {
   .banner a:hover {
     transform: translateY(-100%);
   }
+  .s3 {
+    display: default;
+  }
   .s3 article {
     display: grid;
     padding: 10vh 0;
