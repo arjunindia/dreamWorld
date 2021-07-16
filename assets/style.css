@@ -390,6 +390,7 @@ footer {
   .banner {
     height: 100vh;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
     /* background-color: */
@@ -400,13 +401,16 @@ footer {
   }
   .hh {
     display: flex;
+    display: -webkit-flex;
     padding: 10px;
+    /* cursor: pointer; */
   }
   .links-2 {
     display: none;
   }
   .hh span {
     z-index: 2;
+    cursor: pointer;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -414,6 +418,7 @@ footer {
   }
   .hhc {
     display: flex;
+    display: -webkit-flex;
     position: absolute;
     left: 0;
     flex-direction: column;
@@ -444,7 +449,10 @@ footer {
   .banner a:hover {
     transform: translateY(-100%);
   }
-
+  .s3 {
+    display: block;
+    text-align: center;
+  }
   .s3 article {
     display: grid;
     padding: 10vh 0;
