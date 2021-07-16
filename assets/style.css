@@ -442,7 +442,8 @@ footer {
     transform: translateY(-100%);
   }
   .s3 {
-    display: default;
+    display: block;
+    display: flex;
   }
   .s3 article {
     display: grid;
